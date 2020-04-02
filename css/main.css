@@ -13,6 +13,10 @@ h1{
     text-shadow: 2px 2px 5px #81c784;
 }
 
+h2 {
+    color: #00bcd4;
+}
+
 .flower_label{
     color: #673ab7;
     font-size: larger;
@@ -23,6 +27,12 @@ h1{
     font-size: larger;
     font-weight: bolder;
     color: #ff9800;
+}
+
+img.thumb{
+    margin:8px;
+    border: solid 2px #03a9f4;
+    background: #03a9f4;
 }
 
 img.flower_image{
