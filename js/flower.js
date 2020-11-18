@@ -12,5 +12,5 @@ $(function() {
         .attr("src",`images/flowers/${flower.pictures.large}`)
         .attr("alt",flower.label)
     $("p.flower_info").text(flower.text)
-    $("a").attr("href", flower.wiki)
+    $("a:contains(Wikipedia)").attr("href", flower.wiki)
 })
