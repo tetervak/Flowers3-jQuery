@@ -5,12 +5,12 @@
 // starts using jQuery
 $(function () {
     // load the xml file
-    $.getJSON("data/catalog.json", displayFlowers)
-})
+    $.getJSON("data/catalog.json", displayFlowers);
+});
 
 function displayFlowers(data) {
-    let $table = $("<table></table>")
-    let flowers = data.flowers
+    let $table = $("<table></table>");
+    let flowers = data.flowers;
     flowers.forEach((flower, index) => {
             $table.append(
                 `<tr> 
@@ -26,13 +26,13 @@ function displayFlowers(data) {
                     ${flower.text}
                 </td>
             </tr>`
-            )
+            );
         }
-    )
-    $table.appendTo("main")
+    );
+    $table.appendTo("main");
 
     $("table a").click(function () {
-        let index = $(this).data("index")
-        localStorage["flower"] = JSON.stringify(flowers[index])
-    })
+        let index = $(this).data("index");
+        localStorage["flower"] = JSON.stringify(flowers[index]);
+    });
 }
