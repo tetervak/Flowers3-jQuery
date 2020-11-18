@@ -3,16 +3,15 @@
 "use strict"; // use the strict mode
 
 // starts using jQuery
-$(function() {
+$(function () {
     // load the xml file
-    $.getJSON("data/catalog.json",displayFlowers);
+    $.getJSON("data/catalog.json", displayFlowers);
 });
 
 function displayFlowers(data) {
     let $table = $("<table></table>");
-    $table.appendTo("main");
     let flowers = data.flowers;
-    flowers.forEach(function (flower, index) {
+    flowers.forEach((flower, index) => {
             $table.append(
                 `<tr> 
                 <td>
@@ -30,8 +29,9 @@ function displayFlowers(data) {
             );
         }
     );
+    $table.appendTo("main");
 
-    $("table a").click(function(){
+    $("table a").click(function () {
         let index = $(this).data("index");
         localStorage["flower"] = JSON.stringify(flowers[index]);
     });
