@@ -7,7 +7,7 @@ $(function () {
     let date = new Date()
     let year = date.getFullYear()
     const months
-        = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+        = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
     let month = months[date.getMonth()]
     let day = date.getDate()
     $("body").append("<footer></footer>")

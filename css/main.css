@@ -1,14 +1,14 @@
 /* Alex Tetervak, Sheridan College, Ontario */
-body{
+body {
     padding-left: 1em;
     font-family: sans-serif;
 }
 
-main{
+main {
     padding-left: 1em;
 }
 
-h1{
+h1 {
     color: #4caf50;
     text-shadow: 2px 2px 5px #81c784;
 }
@@ -17,51 +17,51 @@ h2 {
     color: #00bcd4;
 }
 
-.flower_label{
+.flower_label {
     color: #673ab7;
     font-size: larger;
     font-weight: bolder;
 }
 
-.flower_name{
+.flower_name {
     font-size: larger;
     font-weight: bolder;
     color: #ff9800;
 }
 
-img.thumb{
-    margin:8px;
+img.thumb {
+    margin: 8px;
     border: solid 2px #03a9f4;
     background: #03a9f4;
 }
 
-img.flower_image{
+img.flower_image {
     background: #03a9f4;
     box-shadow: 4px 4px 10px #03a9f4;
     margin-left: 1em;
     border: solid 2px #03a9f4;
 }
 
-span.flower_price{
+span.flower_price {
     font-size: larger;
     font-weight: bolder;
     color: #00C853;
 }
 
-td{
+td {
     padding: 6px
 }
 
-table{
+table {
     width: 600px;
 }
 
-a{
+a {
     color: #0288D1;
     font-weight: bolder;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }

@@ -36,7 +36,3 @@ function displayFlowers(data) {
         localStorage["flower"] = JSON.stringify(flowers[index])
     })
 }
-
-
-
-

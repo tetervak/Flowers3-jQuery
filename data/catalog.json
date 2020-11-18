@@ -17,9 +17,9 @@
       "price": "$1.99",
       "text": "Carnations require well-drained, neutral to slightly alkaline soil, and full sun. Examples include Gina Porto, Helen and Red Rocket",
       "pictures": {
-          "small": "carnation_small.jpeg",
-          "large": "carnation_large.jpeg"
-        },
+        "small": "carnation_small.jpeg",
+        "large": "carnation_large.jpeg"
+      },
       "wiki": "https://en.wikipedia.org/wiki/Dianthus_caryophyllus"
     },
     {
