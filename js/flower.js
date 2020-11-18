@@ -5,11 +5,12 @@
 // starts using jQuery
 $(function() {
 
-    let flower = JSON.parse(localStorage["flower"]);
-    $("span.flower_name").text(flower.label);
-    $("span.flower_price").text(flower.price);
+    let flower = JSON.parse(localStorage["flower"])
+    $("span.flower_name").text(flower.label)
+    $("span.flower_price").text(flower.price)
     $("img.flower_image")
         .attr("src",`images/flowers/${flower.pictures.large}`)
-        .attr("alt",flower.label);
-    $("p.flower_info").text(flower.text);
-});
+        .attr("alt",flower.label)
+    $("p.flower_info").text(flower.text)
+    $("a").attr("href", flower.wiki)
+})

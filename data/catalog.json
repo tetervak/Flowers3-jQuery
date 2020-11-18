@@ -8,7 +8,8 @@
       "pictures": {
         "small": "aster_small.jpeg",
         "large": "aster_large.jpeg"
-      }
+      },
+      "wiki": "https://en.wikipedia.org/wiki/Aster_(genus)"
     },
     {
       "name": "carnation",
@@ -18,7 +19,8 @@
       "pictures": {
           "small": "carnation_small.jpeg",
           "large": "carnation_large.jpeg"
-        }
+        },
+      "wiki": "https://en.wikipedia.org/wiki/Dianthus_caryophyllus"
     },
     {
       "name": "daffodil",
@@ -28,7 +30,8 @@
       "pictures": {
         "small": "daffodil_small.jpeg",
         "large": "daffodil_large.jpeg"
-      }
+      },
+      "wiki": "https://en.wikipedia.org/wiki/Narcissus_(plant)"
     },
     {
       "name": "rose",
@@ -38,7 +41,8 @@
       "pictures": {
         "small": "rose_small.jpeg",
         "large": "rose_large.jpeg"
-      }
+      },
+      "wiki": "https://en.wikipedia.org/wiki/Rose"
     },
     {
       "name": "orchid",
@@ -48,7 +52,8 @@
       "pictures": {
         "small": "orchid_small.jpeg",
         "large": "orchid_large.jpeg"
-      }
+      },
+      "wiki": "https://en.wikipedia.org/wiki/Orchidaceae"
     }
   ]
 }
