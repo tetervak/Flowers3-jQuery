@@ -5,12 +5,12 @@
 // starts using jQuery
 $(function () {
     // load the xml file
-    $.getJSON("data/catalog.json", displayFlowers);
+    $.getJSON("http://localhost:8080/api/flowers", displayFlowers);
 });
 
 function displayFlowers(data) {
     let $table = $("<table></table>");
-    let flowers = data.flowers;
+    let flowers = data["_embedded"].flowers;
     flowers.forEach((flower, index) => {
             $table.append(
                 `<tr> 
